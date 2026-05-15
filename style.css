@@ -179,7 +179,7 @@ h1 {
 
 .btn {
   width: 100%;
-  outline: none;
+
   border: none;
   color: #fff;
   padding: 1rem;
@@ -199,6 +199,14 @@ h1 {
     var(--light-royal-blue),
     var(--light-slate-blue)
   );
+
+  a:focus-visible,
+  button:focus-visible,
+  .btn:focus-visible {
+    outline: 3px solid currentColor;
+    outline-offset: 0.25rem;
+    border-radius: 0.25rem;
+  }
 }
 
 /* ******************************** */
