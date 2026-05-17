@@ -199,16 +199,15 @@ h1 {
     var(--light-royal-blue),
     var(--light-slate-blue)
   );
-
-  a:focus-visible,
-  button:focus-visible,
-  .btn:focus-visible {
-    outline: 3px solid currentColor;
-    outline-offset: 0.25rem;
-    border-radius: 0.25rem;
-  }
 }
 
+a:focus-visible,
+button:focus-visible,
+.btn:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 0.25rem;
+  border-radius: 0.25rem;
+}
 /* ******************************** */
 /* attribution */
 .attribution {
