@@ -104,10 +104,17 @@ body {
   color: #fff;
 }
 
-h1 {
+.result-part h1 {
+  font-size: 1.5rem;
+  margin-bottom: 2.25rem;
+  color: #cfc6ff;
+}
+
+.result-label {
   font-size: 1.85rem;
   margin-bottom: 0.85rem;
   color: #fff;
+  font-weight: 700;
 }
 
 .rating-description {
@@ -238,7 +245,7 @@ button:focus-visible,
     padding-bottom: 0;
   }
 
-  h1 {
+  .result-label {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
   }
