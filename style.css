@@ -210,11 +210,12 @@ button:focus-visible,
 @media screen and (max-width: 768px) {
   .container {
     flex-direction: column;
-
-    height: 809px;
-    width: 375px;
+    width: 100%;
+    max-width: 23.4375rem;
+    min-height: auto;
     border-radius: 0;
-    box-shadow: 10px 20px 60px #e9edf9;
+    box-shadow: none;
+    margin-inline: auto;
   }
 
   .result-part h2 {
